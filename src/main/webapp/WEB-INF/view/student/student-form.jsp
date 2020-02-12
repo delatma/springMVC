@@ -20,10 +20,10 @@
         <input type="submit" value="Submit" />
 
         Favorite Programming Language:
-        Java <form:radiobutton path="favoriteLanguage" value="Java">
-        C# <form:radiobutton path="favoriteLanguage" value="C#">
-        PHP <form:radiobutton path="favoriteLanguage" value="PPH">
-        Ruby <form:radiobutton path="favoriteLanguage" value="Ruby">
+        Java <form:radiobutton path="favoriteLanguage" value="Java" />
+        C# <form:radiobutton path="favoriteLanguage" value="C#" />
+        PHP <form:radiobutton path="favoriteLanguage" value="PPH" />
+        Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />
 
     </form:form>
 
