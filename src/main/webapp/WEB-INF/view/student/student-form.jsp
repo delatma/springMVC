@@ -19,11 +19,9 @@
         </form:select>
         <br>
         Favorite Programming Language:
-        Java <form:radiobutton path="favoriteLanguage" value="Java" />
-        C# <form:radiobutton path="favoriteLanguage" value="C#" />
-        PHP <form:radiobutton path="favoriteLanguage" value="PPH" />
-        Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />
-
+        <form:radiobuttons path="favoriteLanguage"
+            items="${student.favoriteLanguageOptions}"  />
+        <br>
         <input type="submit" value="Submit" />
 
     </form:form>
